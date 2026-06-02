@@ -116,3 +116,28 @@ Stores verification logs and verification results.
 
 ### INSTITUTION
 Stores institution information for certificate generation and validation.
+
+---
+
+## Security Features
+
+- QR Code Based Verification
+- File Hash Validation
+- Tampered Certificate Detection
+- Certificate Revocation
+- Verification Logging
+- Secure Administrator Access
+
+---
+
+## Project Structure
+
+```text
+digital-certificate-verification-system
+│
+├── digital_certificates/
+├── screenshots/
+├── clean_database.sql
+├── project_documentation.pdf
+├── README.md
+└── .gitattributes
