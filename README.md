@@ -141,3 +141,41 @@ digital-certificate-verification-system
 ├── project_documentation.pdf
 ├── README.md
 └── .gitattributes
+
+---
+
+## Screenshots
+
+Project screenshots are available in the screenshots folder.
+
+- Admin Login
+- Admin Dashboard
+- Certificate Generation
+- QR Verification
+- Verification Logs
+- Tampered Certificate Detection
+- Invalid Certificate Detection
+
+---
+
+## Project Documentation
+
+Complete project documentation is available in:
+
+project_documentation.pdf
+
+---
+
+## Future Enhancements
+
+- Mobile Application Integration
+- Blockchain-Based Certificate Verification
+- Multi-Institution Support
+- Cloud Deployment
+- Advanced Analytics Dashboard
+
+---
+
+## Conclusion
+
+The QR Code Based Digital Certificate Verification System provides a secure and efficient solution for certificate generation and verification. By combining QR code technology, file hash validation, and verification logging, the system helps institutions reduce certificate forgery and improve trust in digital credentials.
