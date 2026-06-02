@@ -42,3 +42,77 @@ This project addresses these issues by providing a secure QR-code-based certific
 - Tampered Certificate Detection
 - Invalid Certificate Detection
 - Secure Database Management
+
+---
+
+## System Modules
+
+### 1. Admin Module
+The administrator can securely log in to the system and access all certificate management functionalities.
+
+### 2. Certificate Generation Module
+Allows administrators to generate digital certificates containing student details and QR codes.
+
+### 3. QR Code Verification Module
+Enables instant certificate verification through QR code scanning.
+
+### 4. External Certificate Upload Module
+Allows external certificates to be uploaded and verified within the system.
+
+### 5. Verification Logs Module
+Stores verification history and maintains audit records.
+
+### 6. Certificate Revocation Module
+Allows invalid or withdrawn certificates to be revoked from the system.
+
+### 7. Tampered Certificate Detection Module
+Detects modifications made to certificates using file hash comparison.
+
+---
+
+## Technologies Used
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- PHP
+
+### Database
+- MySQL
+
+### Development Environment
+- XAMPP
+
+### Libraries and Tools
+- QR Code Generator Library
+- FPDF
+- FPDI
+
+---
+
+## Database Design
+
+The system uses MySQL as the backend database.
+
+### Tables Used
+
+### ADMIN
+Stores administrator login information.
+
+### STUDENT
+Stores student details such as name, register number, course, year, and institution.
+
+### CERTIFICATE
+Stores certificate information including issue date, certificate type, status, and file hash.
+
+### QR_CODE
+Stores QR code images and verification URLs linked to certificates.
+
+### VERIFICATION
+Stores verification logs and verification results.
+
+### INSTITUTION
+Stores institution information for certificate generation and validation.
