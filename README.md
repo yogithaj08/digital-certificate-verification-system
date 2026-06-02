@@ -134,12 +134,20 @@ Stores institution information for certificate generation and validation.
 
 Below are some screenshots demonstrating the system functionality.
 
-Additional implementation screenshots are available in the [screenshots](./screenshots) directory.
+Additional implementation screenshots are available in the <a href="./screenshots">screenshots</a> directory.
 
-| | | |
-|---|---|---|
-| ![](./screenshots/01_admin_login.png) | ![](./screenshots/04_admin_home_page.png) | ![](./screenshots/05_certificate_generation_page.png) |
-| ![](./screenshots/08_generated_certificate_with_qr.png) | ![](./screenshots/09_qr_verification_result.png) | ![](./screenshots/15_admin_dashboard.png) |
+<p align="center">
+  <img src="./screenshots/01_admin_login.png" width="250">
+  <img src="./screenshots/04_admin_home_page.png" width="250">
+  <img src="./screenshots/05_certificate_generation_page.png" width="250">
+</p>
+
+<p align="center">
+  <img src="./screenshots/08_generated_certificate_with_qr.png" width="250">
+  <img src="./screenshots/09_qr_verification_result.png" width="250">
+  <img src="./screenshots/15_admin_dashboard.png" width="250">
+</p>
+
 ---
 
 ## Project Documentation
