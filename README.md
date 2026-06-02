@@ -152,7 +152,7 @@ Additional implementation screenshots are available in the <a href="./screenshot
 
 ## Project Documentation
 
-For complete project documentation:[Project Documentation](./project_documentation.pdf)
+Complete Project Report:[Project Documentation](./project_documentation.pdf)
 
 ---
 
