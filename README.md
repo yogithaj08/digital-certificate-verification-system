@@ -144,6 +144,7 @@ digital-certificate-verification-system
 
 ---
 
+
 ## Screenshots
 
 Project screenshots are available in the screenshots folder.
