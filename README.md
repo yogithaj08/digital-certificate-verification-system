@@ -132,41 +132,21 @@ Stores institution information for certificate generation and validation.
 
 ## Screenshots
 
-All project screenshots are available in the [screenshots](./screenshots) folder.
+Below are some screenshots demonstrating the system functionality.
 
-### Preview Screenshots
+Additional implementation screenshots are available in the [screenshots](./screenshots) directory.
 
-#### Admin Login
-
-![Admin Login](./screenshots/01_admin_login_page.png)
-
-#### Admin Dashboard
-
-![Admin Dashboard](./screenshots/15_admin_dashboard.png)
-
-#### Certificate Generation
-
-![Certificate Generation](./screenshots/05_certificate_generation_page.png)
-
-#### Generated Certificate with QR Code
-
-![Generated Certificate](./screenshots/08_generated_certificate_pdf_with_qr_code.png)
-
-#### Verification Logs
-
-![Verification Logs](./screenshots/17_verification_logs_page.png)
-
-#### Tampered Certificate Detection
-
-![Tampered Certificate Detection](./screenshots/24_tampered_certificate_detection.png)
-
+| | | |
+|---|---|---|
+| ![](./screenshots/01_admin_login.png) | ![](./screenshots/04_admin_home_page.png) | ![](./screenshots/05_certificate_generation_page.png) |
+| ![](./screenshots/08_generated_certificate_with_qr.png) | ![](./screenshots/09_qr_verification_result.png) | ![](./screenshots/15_admin_dashboard.png) |
 ---
 
 ## Project Documentation
 
 Complete project documentation is available here:
 
-[📄 Project Documentation](./project_documentation.pdf)
+[Project Documentation](./project_documentation.pdf)
 
 ---
 
