@@ -106,7 +106,7 @@ digital-certificate-verification-system
 ### ER Diagram
 
 <p align="center">
-  <img src="./diagrams/er_diagram.png" width="600"/>
+  <img src="./diagrams/er_diagram.png" width="700"/>
 </p>
 
 ### Data Flow Diagram (Level 0)
