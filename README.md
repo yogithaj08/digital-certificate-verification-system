@@ -124,7 +124,7 @@ digital-certificate-verification-system
 ### Data Flow Diagram (Level 2)
 
 <p align="center">
-  <img src="./diagrams/dfd_level2.png" width="300" height="200"/>
+  <img src="./diagrams/dfd_level2.png" width="300" height="400"/>
 </p>
 
 ### Database Schema
