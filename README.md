@@ -50,16 +50,22 @@ This project addresses these issues by providing a secure QR-code-based certific
 ```text
 digital-certificate-verification-system
 
+├── diagrams/
+│   ├── er_diagram.png
+│   ├── dfd_level0.png
+│   ├── dfd_level1.png
+│   ├── dfd_level2.png
+│   └── database_schema.png
 ├── digital_certificates/
 │   ├── admin/
 │   ├── certificates/
 │   ├── qrcodes/
 │   └── templates/
 ├── screenshots/
+├── .gitattributes
 ├── README.md
 ├── clean_database.sql
-├── project_documentation.pdf
-└── .gitattributes
+└── project_documentation.pdf
 ```
 
 ---
@@ -100,13 +106,13 @@ digital-certificate-verification-system
 ### ER Diagram
 
 <p align="center">
-  <img src="./diagrams/er_diagram.png" width="500"/>
+  <img src="./diagrams/er_diagram.png" width="550"/>
 </p>
 
 ### Data Flow Diagram (Level 0)
 
 <p align="center">
-  <img src="./diagrams/dfd_level0.png" width="500"/>
+  <img src="./diagrams/dfd_level0.png" width="550"/>
 </p>
 
 ### Data Flow Diagram (Level 1)
@@ -118,13 +124,13 @@ digital-certificate-verification-system
 ### Data Flow Diagram (Level 2)
 
 <p align="center">
-  <img src="./diagrams/dfd_level2.png" width="350"/>
+  <img src="./diagrams/dfd_level2.png" width="300" height="200"/>
 </p>
 
 ### Database Schema
 
 <p align="center">
-  <img src="./diagrams/database_schema.png" width="500"/>
+  <img src="./diagrams/database_schema.png" width="550"/>
 </p>
 
 ---
