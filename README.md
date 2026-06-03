@@ -105,13 +105,13 @@ The following diagrams illustrate the data flow, entity relationships, and datab
 ### Data Flow Diagram (Level 1)
 
 <p align="center">
-  <img src="./diagrams/dfd_level1.png" width="350"/>
+  <img src="./diagrams/dfd_level1.png" width="400"/>
 </p>
 
 ### Data Flow Diagram (Level 2)
 
 <p align="center">
-  <img src="./diagrams/dfd_level2.png" width="300" height="400"/>
+  <img src="./diagrams/dfd_level2.png" width="400" height="400"/>
 </p>
 
 ### Database Schema Diagram
