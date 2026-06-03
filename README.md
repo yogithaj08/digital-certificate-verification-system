@@ -64,41 +64,6 @@ digital-certificate-verification-system
 
 ---
 
-## System Design
-
-### ER Diagram
-
-<p align="center">
-  <img src="./diagrams/er_diagram.png" width="400"/>
-</p>
-
-### Data Flow Diagram (Level 0)
-
-<p align="center">
-  <img src="./diagrams/dfd_level0.png" width="400"/>
-</p>
-
-### Data Flow Diagram (Level 1)
-
-<p align="center">
-  <img src="./diagrams/dfd_level1.png" width="400"/>
-</p>
-
-### Data Flow Diagram (Level 2)
-
-<p align="center">
-  <img src="./diagrams/dfd_level2.png" width="400"/>
-</p>
-
-### Database Schema
-
-<p align="center">
-  <img src="./diagrams/database_schema.png" width="400"/>
-</p>
-
-
----
-
 ## System Workflow
 
 1. Administrator logs into the system using authorized credentials.
@@ -127,6 +92,40 @@ digital-certificate-verification-system
 * Invalid Certificate
 
 11. Every verification attempt is recorded in the verification log for monitoring and auditing purposes.
+
+---
+
+## System Design
+
+### ER Diagram
+
+<p align="center">
+  <img src="./diagrams/er_diagram.png" width="500"/>
+</p>
+
+### Data Flow Diagram (Level 0)
+
+<p align="center">
+  <img src="./diagrams/dfd_level0.png" width="500"/>
+</p>
+
+### Data Flow Diagram (Level 1)
+
+<p align="center">
+  <img src="./diagrams/dfd_level1.png" width="350"/>
+</p>
+
+### Data Flow Diagram (Level 2)
+
+<p align="center">
+  <img src="./diagrams/dfd_level2.png" width="350"/>
+</p>
+
+### Database Schema
+
+<p align="center">
+  <img src="./diagrams/database_schema.png" width="500"/>
+</p>
 
 ---
 
