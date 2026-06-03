@@ -67,19 +67,35 @@ digital-certificate-verification-system
 ## System Design
 
 ### ER Diagram
-![ER Diagram](./diagrams/er_diagram.png)
+
+<p align="center">
+  <img src="./diagrams/er_diagram.png" width="400"/>
+</p>
 
 ### Data Flow Diagram (Level 0)
-![DFD Level 0](./diagrams/dfd_level0.png)
+
+<p align="center">
+  <img src="./diagrams/dfd_level0.png" width="400"/>
+</p>
 
 ### Data Flow Diagram (Level 1)
-![DFD Level 1](./diagrams/dfd_level1.png)
+
+<p align="center">
+  <img src="./diagrams/dfd_level1.png" width="400"/>
+</p>
 
 ### Data Flow Diagram (Level 2)
-![DFD Level 2](./diagrams/dfd_level2.png)
+
+<p align="center">
+  <img src="./diagrams/dfd_level2.png" width="400"/>
+</p>
 
 ### Database Schema
-![Database Schema](./diagrams/database_schema.png)
+
+<p align="center">
+  <img src="./diagrams/database_schema.png" width="400"/>
+</p>
+
 
 ---
 
