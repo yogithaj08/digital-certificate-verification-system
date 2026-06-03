@@ -64,6 +64,56 @@ digital-certificate-verification-system
 
 ---
 
+## System Design
+
+### ER Diagram
+![ER Diagram](./diagrams/er_diagram.png)
+
+### Data Flow Diagram (Level 0)
+![DFD Level 0](./diagrams/dfd_level0.png)
+
+### Data Flow Diagram (Level 1)
+![DFD Level 1](./diagrams/dfd_level1.png)
+
+### Data Flow Diagram (Level 2)
+![DFD Level 2](./diagrams/dfd_level2.png)
+
+### Database Schema
+![Database Schema](./diagrams/database_schema.png)
+
+---
+
+## System Workflow
+
+1. Administrator logs into the system using authorized credentials.
+
+2. The administrator enters student details including name, register number, course, academic year, institution, and certificate type.
+
+3. The system generates a unique Certificate ID and stores certificate information in the database.
+
+4. A QR code is automatically generated and linked to the certificate verification page.
+
+5. The QR code is embedded into the PDF certificate and the certificate is issued to the student.
+
+6. The system generates a SHA-256 hash value for the certificate file and securely stores it in the database.
+
+7. Users verify certificates by scanning the embedded QR code.
+
+8. The system retrieves certificate details and validates the certificate status.
+
+9. The stored hash value is compared with the current certificate hash to detect any tampering or unauthorized modifications.
+
+10. The verification result is displayed as:
+
+* Valid Certificate
+* Revoked Certificate
+* Tampered Certificate
+* Invalid Certificate
+
+11. Every verification attempt is recorded in the verification log for monitoring and auditing purposes.
+
+---
+
 ## System Modules
 
 ### 1. Admin Module
@@ -86,6 +136,17 @@ Allows invalid or withdrawn certificates to be revoked from the system.
 
 ### 7. Tampered Certificate Detection Module
 Detects modifications made to certificates using file hash comparison.
+
+---
+
+## Security Features
+
+- QR Code Based Verification
+- File Hash Validation
+- Tampered Certificate Detection
+- Certificate Revocation
+- Verification Logging
+- Secure Administrator Access
 
 ---
 
@@ -135,17 +196,6 @@ Stores verification logs and verification results.
 
 ### INSTITUTION
 Stores institution information for certificate generation and validation.
-
----
-
-## Security Features
-
-- QR Code Based Verification
-- File Hash Validation
-- Tampered Certificate Detection
-- Certificate Revocation
-- Verification Logging
-- Secure Administrator Access
 
 ---
 
