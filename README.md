@@ -67,6 +67,7 @@ digital-certificate-verification-system
 ├── clean_database.sql
 └── project_documentation.pdf
 ```
+The complete source code implementation can be found in the [digital_certificates](./digital_certificates/) directory.
 
 ---
 
