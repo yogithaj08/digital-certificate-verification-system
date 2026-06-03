@@ -45,6 +45,25 @@ This project addresses these issues by providing a secure QR-code-based certific
 
 ---
 
+## Project Structure
+
+```text
+digital-certificate-verification-system
+
+├── digital_certificates/
+│   ├── admin/
+│   ├── certificates/
+│   ├── qrcodes/
+│   └── templates/
+├── screenshots/
+├── README.md
+├── clean_database.sql
+├── project_documentation.pdf
+└── .gitattributes
+```
+
+---
+
 ## System Modules
 
 ### 1. Admin Module
@@ -127,21 +146,6 @@ Stores institution information for certificate generation and validation.
 - Certificate Revocation
 - Verification Logging
 - Secure Administrator Access
-
----
-
-## Project Structure
-
-```text
-digital-certificate-verification-system
-
-├── digital_certificates/
-├── screenshots/
-├── .gitattributes
-├── README.md
-├── clean_database.sql
-└── project_documentation.pdf
-```
 
 ---
 
