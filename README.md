@@ -88,7 +88,7 @@ digital-certificate-verification-system
 
 ## System Design
 
-The following diagrams illustrate the data flow and database structure of the Digital Certificate Verification System.
+The following diagrams illustrate the data flow, entity relationships, and database structure of the Digital Certificate Verification System.
 
 ### Entity Relationship(ER) Diagram
 
