@@ -72,38 +72,25 @@ digital-certificate-verification-system
 
 ## System Workflow
 
-1. Administrator logs into the system using authorized credentials.
-
-2. The administrator enters student details including name, register number, course, academic year, institution, and certificate type.
-
-3. The system generates a unique Certificate ID and stores certificate information in the database.
-
-4. A QR code is automatically generated and linked to the certificate verification page.
-
-5. The QR code is embedded into the PDF certificate and the certificate is issued to the student.
-
-6. The system generates a SHA-256 hash value for the certificate file and securely stores it in the database.
-
-7. Users verify certificates by scanning the embedded QR code.
-
-8. The system retrieves certificate details and validates the certificate status.
-
-9. The stored hash value is compared with the current certificate hash to detect any tampering or unauthorized modifications.
-
-10. The verification result is displayed as:
-
-* Valid Certificate
-* Revoked Certificate
-* Tampered Certificate
-* Invalid Certificate
-
-11. Every verification attempt is recorded in the verification log for monitoring and auditing purposes.
+1. Admin logs in to the system.
+2. Student details are entered.
+3. Certificate information is processed.
+4. QR code and unique hash are generated.
+5. Digital certificate is created.
+6. Certificate is stored in the database.
+7. Certificate is issued to the student.
+8. Student can access and verify certificates.
+9. User scans the QR code for verification.
+10. Certificate authenticity is validated.
+11. Verification result is displayed.
 
 ---
 
 ## System Design
 
-### ER Diagram
+The following diagrams illustrate the data flow and database structure of the Digital Certificate Verification System.
+
+### Entity Relationship(ER) Diagram
 
 <p align="center">
   <img src="./diagrams/er_diagram.png" width="700"/>
@@ -127,7 +114,7 @@ digital-certificate-verification-system
   <img src="./diagrams/dfd_level2.png" width="300" height="400"/>
 </p>
 
-### Database Schema
+### Database Schema Diagram
 
 <p align="center">
   <img src="./diagrams/database_schema.png" width="550"/>
@@ -171,26 +158,15 @@ Detects modifications made to certificates using file hash comparison.
 
 ---
 
-## Technologies Used
+## Tech Stack
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-
-### Backend
-- PHP
-
-### Database
-- MySQL
-
-### Development Environment
-- XAMPP
-
-### Libraries and Tools
-- QR Code Generator Library
-- FPDF
-- FPDI
+| Category | Technology |
+|-----------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | PHP |
+| Database | MySQL |
+| Environment | XAMPP |
+| Libraries | QR Code Generator, FPDF, FPDI |
 
 ---
 
