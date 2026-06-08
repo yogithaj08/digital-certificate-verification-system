@@ -71,6 +71,28 @@ The complete source code implementation can be found in the [digital_certificate
 
 ---
 
+## Installation & Setup
+
+1. Install XAMPP and start Apache and MySQL services.
+
+2. Clone or download this repository.
+
+3. Copy the `digital_certificates` folder to the XAMPP `htdocs` directory.
+
+4. Create a new MySQL database using phpMyAdmin.
+
+5. Import the `clean_database.sql` file to set up the required database tables.
+
+6. Configure the database connection settings in the project files if necessary.
+
+7. Open the application in a web browser: http://localhost/digital_certificates
+
+8. Log in as an administrator to generate, manage, and verify digital certificates.
+
+9. Use the verification module to validate certificates through QR code scanning and hash-based integrity checks.
+
+---
+
 ## System Workflow
 
 1. Admin logs in to the system.
