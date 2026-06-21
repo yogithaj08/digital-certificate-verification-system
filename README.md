@@ -1,4 +1,4 @@
-# BCA Final Year Project - QR Code Based Digital Certificate Verification System to Prevent Forgery.
+# QR Code Based Digital Certificate Verification System to Prevent Forgery.
 
 ## Project Overview
 
