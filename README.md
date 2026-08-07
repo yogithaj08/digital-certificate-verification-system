@@ -63,6 +63,7 @@ digital-certificate-verification-system
 │   └── templates/
 ├── screenshots/
 ├── .gitattributes
+├── LICENSE
 ├── README.md
 ├── clean_database.sql
 └── project_documentation.pdf
